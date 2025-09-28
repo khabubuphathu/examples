@@ -4,7 +4,7 @@ import { v } from "convex/values";
 export const send = mutation({
   args: {
     body: v.string(),
-    author: v.string(),
+    author: v.string()
   },
   returns: v.null(),
   handler: async (ctx, args) => {
